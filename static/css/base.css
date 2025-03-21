@@ -1,0 +1,110 @@
+/* Spaceduck-inspired Bootstrap theme */
+:root {
+    --spaceduck-background: #0f111b;
+    --spaceduck-foreground: #ecf0c1;
+    --spaceduck-cyan: #5fb3b3;
+    --spaceduck-green: #a7c080;
+    --spaceduck-yellow: #dbc074;
+    --spaceduck-orange: #e39b7b;
+    --spaceduck-pink: #d699b6;
+    --spaceduck-purple: #2e3459;
+    --spaceduck-red: #e68183;
+}
+
+body {
+    background-color: var(--spaceduck-background);
+    color: var(--spaceduck-foreground);
+    font-family: "DM Serif Text", seir;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: var(--spaceduck-purple);
+}
+
+.navbar-brand, .nav-link {
+    color: var(--spaceduck-foreground) !important;
+}
+
+.nav-link:hover {
+    color: var(--spaceduck-cyan) !important;
+}
+
+.nav-link.disabled {
+    color: var(--spaceduck-green) !important;
+}
+
+.container {
+    background-color: var(--spaceduck-background);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: var(--spaceduck-green);
+    border-color: var(--spaceduck-green);
+}
+
+.btn-primary:hover {
+    background-color: var(--spaceduck-cyan);
+    border-color: var(--spaceduck-cyan);
+}
+
+.btn-secondary {
+    background-color: var(--spaceduck-yellow);
+    border-color: var(--spaceduck-yellow);
+}
+
+.btn-secondary:hover {
+    background-color: var(--spaceduck-orange);
+    border-color: var(--spaceduck-orange);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--spaceduck-yellow);
+}
+
+a {
+    color: var(--spaceduck-pink);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--spaceduck-cyan);
+}
+
+/* Customize table */
+.table {
+    background-color: var(--spaceduck-background);
+    color: var(--spaceduck-foreground);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: var(--spaceduck-purple);
+    color: var(--spaceduck-background);
+}
+
+.table td {
+    background-color: var(--spaceduck-background);
+    color: var(--spaceduck-foreground);
+}
+
+/* Footer */
+footer {
+    background-color: var(--spaceduck-purple);
+    color: var(--spaceduck-foreground);
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: var(--spaceduck-green);
+}
+
+footer a:hover {
+    color: var(--spaceduck-cyan);
+}

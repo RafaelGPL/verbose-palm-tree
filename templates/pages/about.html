@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+<section class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+            <img
+                src="{% static 'img/me2.jpeg' %}" alt="Profile Picture" class="img-fluid rounded"
+                style="aspect-ratio: 1/3; object-fit: cover; width: 100%; max-width: 300px;">
+        </div>
+        <div class="col-md-8">
+            <h1 class="fw-bold">About Me</h1>
+            <p class="lead">Hi, my name is <strong>Rafael GPL</strong>. I am a professor at SDGKU, a software engineer, and an AI enthusiast with a deep passion for technology, teaching, and problem-solving. Over the years, I've worked on a wide range of projects, from building scalable systems to mentoring aspiring developers.</p>
+            <p>Beyond my technical work, I enjoy exploring new innovations, writing about emerging trends, and creating platforms that empower people to share their knowledge. This blog system is one such endeavor—an open space for thoughtful discussion and collaboration.</p>
+            <p>Feel free to connect with me, explore my blog, and contribute to the discussion. I look forward to learning and growing together!</p>
+        </div>
+    </div>
+</section>
+{% endblock content %}

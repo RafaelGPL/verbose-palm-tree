@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="bg-dark text-light text-center py-5">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to the Blog System</h1>
+        <p class="lead">A multiuser platform where voices come together to share stories, insights, and ideas.</p>
+        <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="container my-5">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <i class="bi bi-pencil-square fs-1 text-primary"></i>
+            <h3 class="mt-3">Write & Share</h3>
+            <p>Express yourself through blogs and share your thoughts with the world.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="bi bi-people fs-1 text-success"></i>
+            <h3 class="mt-3">Connect</h3>
+            <p>Engage with a community of writers and readers who share your interests.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="bi bi-lightbulb fs-1 text-warning"></i>
+            <h3 class="mt-3">Inspire</h3>
+            <p>Discover new perspectives, learn, and inspire others with your stories.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="bg-dark py-5 text-center">
+    <div class="container">
+        <h2>Start Your Journey Today</h2>
+        <p class="lead">Join now and be part of a growing community of writers and thinkers.</p>
+        <a href="#" class="btn btn-success btn-lg">Sign Up Now</a>
+    </div>
+</section>
+{% endblock content %}
